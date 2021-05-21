@@ -1,0 +1,106 @@
+            @media only screen and (min-width: 65rem) {
+            nav button {
+                display: none;
+            }
+            nav ul.hide {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+            }
+            nav ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+            }
+            nav ul li {
+                display: block;
+                flex: 1 1 auto;
+            }
+            nav ul li a {
+                display: block;
+                padding: .8rem 2%;
+                text-decoration: none;
+                text-align: center;
+                font-weight: bold;
+                color: white;
+                font-size: 1.6rem;
+                font-family: 'Roboto', sans-serif;
+                border: none;
+            }
+            .main-title {
+                font-size: 1.8rem;
+            }
+            .headings h1 {
+                font-size: 4rem;
+            }
+            .m {
+                font-size: 1.8rem;
+            }
+            header img {
+                display: flex;
+                width: 220px;
+            }
+            .main-title {
+                font-size: 3rem;
+                padding: 3rem;
+            }
+            main {
+                margin: 0 auto;
+                margin-left: .4rem;
+                margin-right: .4rem;
+                padding: 0.9rem;
+            }
+            .hero {
+                margin: 10px auto;
+                position: relative;
+            }
+            .sumary {
+                position: absolute;
+                top: 35px;
+                left: 200px;
+                width: 20%;
+            }
+            .sumary h3 {
+                color: white;
+                font-weight: bold;
+                font-size: 2rem;
+            }
+            .sumary p {
+                font-weight: bold;
+            }
+            .hero img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+            }
+            .fiveday {
+                display: block;
+                padding: 3rem;
+            }
+            .fiveday h2 {
+                text-align: center;
+                font-size: 2rem;
+                color: #D51920;
+            }
+            .fiveday .forecast {}
+            .forecast img {
+                width: 15%;
+                padding: 0.6rem;
+            }
+            .media {
+                margin-left: 8%;
+            }
+            .media a img {
+                width: 8%;
+                display: inline;
+            }
+            .author {
+                padding: 2rem;
+                padding-bottom: 4rem;
+            }
+            p {
+                font-size: 2rem;
+            }

@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+h1{
+ color: red;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+ color: #3AACC6;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+     color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+     font-size: 1rem;
+
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: WHITE;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #3AACC6;
+    box-shadow: 0 2px 15px #C4F0FF;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    background-color: white;
+    color: #26A6D1;
+    box-shadow: 0 2px 15px #C4F0FF;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 0 2px 15px #3AACC6;
+}
+
+nav ul.hide {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3AACC6;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headings h1 {
+    font-size: 2.4rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0 0 0 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.m {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+.m h2{
+    padding: 0;
+}
+
+main {
+    background-color: white;
+}
+
+main h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+    padding: 1rem;
+}
+
+.topics {
+    font-family: 'Roboto', sans-serif;
+    border: dotted #C4F0FF;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    color: #D51920;
+}
+
+.topics a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #D51920;
+}
+
+.hero {
+    position: relative;
+    padding-left: 2.2rem;
+    display: block;
+}
+
+.sumary {
+    float: inline-end;
+    background: radial-gradient(#eee, #4567aa);
+    box-shadow: 0 0 30px white;
+    opacity: .8;
+    text-align: center;
+    font-size: .7rem;
+    width: 92%;
+    margin-top: 0;
+}
+
+.sumary h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 0%;
+}
+
+.sumary p {
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+    font-size: 0.9rem;
+}
+
+.sumary {
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.hero img {
+    width: 92%;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: -10%;
+}
+
+.fiveday {
+    display: block;
+}
+
+.fiveday h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #26A6D1;
+}
+
+.fiveday .forecast {
+    margin-left: 3.5rem;
+}
+
+.forecast img {
+    width: 17%;
+    padding: 0;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0.9rem;
+    background-color: #26A6D1;
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+footer p{
+    color: white;
+   
+}
+
+.article {
+    padding: 2rem;
+}
+
+.article h3 {
+    color: #26A6D1;
+    text-align: center;
+    margin: 0%;
+}
+
+.author {
+    text-justify: left;
+    font-style: italic;
+    margin: 0%;
+    padding: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+.text {
+    text-justify: inter-word;
+    display: inline;
+}
+
+.water {
+    width: 100%;
+    float: inline-start;
+    padding-bottom: .8rem;
+}
+
+.contact {
+    padding: 0.9rem;
+    margin-left: .4rem;
+    margin-right: .4rem;
+    background-color: #C4F0FF;
+}
+
+.info p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    border: solid #C4F0FF;
+    background-color: #26A6D1;
+}
+
+.media {
+    display: inline;
+    padding-left: 4.5rem;
+    padding-right: 2rem;
+}
+
+.media a img {
+    width: 10%;
+    padding: .1rem;
+    padding-bottom: 1rem;
+}
+
+.map img {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rems;
+}
+
+.top {
+    display: none;
+    margin: 0%;
+}
+
+.top-appear {
+    display: block;
+    background-color: #C4F0FF;
+    color: #D51920;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
