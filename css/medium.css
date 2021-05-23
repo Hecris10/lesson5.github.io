@@ -44,7 +44,7 @@
     .m {
         font-size: 2rem;
     }
-    .p{
+    .p {
         font-size: 1.2rem;
     }
     header img {
@@ -104,7 +104,6 @@
     }
     .text {
         text-justify: left;
-       
     }
     .water {
         width: 60%;
@@ -116,10 +115,17 @@
     .media {
         padding-left: 20%;
     }
-    footer p{
-         font-size: 1.2rem; 
-    }
-    .text p{
+    footer p {
         font-size: 1.2rem;
+    }
+    .text p {
+        font-size: 1.2rem;
+    }
+    #map-small,
+    #map-large {
+        display: none;
+    }
+    #map-medium {
+        display: flex;
     }
 }

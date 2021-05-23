@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
-h1{
- color: red;
+h1 {
+    color: red;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-h2{
- color: #3AACC6;
+
+h2 {
+    color: #3AACC6;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-h3{
-     color: black;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
-p{
+
+h3 {
     color: black;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-     font-size: 1rem;
-
 }
+
+p {
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -69,8 +72,6 @@ nav ul.hide {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -115,7 +116,8 @@ h1 {
     margin-left: 20px;
     font-size: .9rem;
 }
-.m h2{
+
+.m h2 {
     padding: 0;
 }
 
@@ -220,9 +222,9 @@ footer {
     margin-left: .4rem;
     margin-right: .4rem;
 }
-footer p{
+
+footer p {
     color: white;
-   
 }
 
 .article {
@@ -284,10 +286,40 @@ footer p{
     padding-bottom: 1rem;
 }
 
-.map img {
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rems;
+.map {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+#map-small {
+    display: flex;
+}
+
+#map-medium,
+#map-large {
+    display: none;
+}
+
+.info-contact {
+    background-color: #26A6D1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.info-contact h2,
+.info-contact p {
+    color: white;
+}
+
+.info-contact img {
+    width: 5rem;
+    margin: 5%;
+}
+
+.info-img {
+    display: flex;
+    margin-left: 14%;
 }
 
 .top {
