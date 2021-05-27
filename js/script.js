@@ -1,17 +1,14 @@
 function toggleMenu() {
-
     document.getElementById("menu").classList.toggle("hide");
 }
+
 
 var date = new Date()
 var n = date.getDay();
 var day = date.getDate();
 var month = date.getMonth();
 var year = date.getFullYear();
-console.log(n);
-console.log(day);
-console.log(month);
-console.log(year);
+
 
 if (n == 0) {
     n = "Sunday";
@@ -23,10 +20,15 @@ if (n == 0) {
     n = "Wednesday";
 } else if (n == 4) {
     n = "Thursday";
+
 } else if (n == 5) {
     n = "Friday";
 } else {
     n = "Saturday";
+
+}
+if (n == "Saturday") {
+    document.querySelector("#message-top").style.display = "block";
 }
 
 if (month == 0) {
@@ -55,5 +57,6 @@ if (month == 0) {
     month = "December"
 }
 
-date = n + ", " + month + " " + day + ", " + year;
-document.querySelector('#date').textContent = date;
+dateSet = n + ", " + month + " " + day + ", " + year;
+console.log(date);
+document.querySelector('#date').textContent = dateSet;

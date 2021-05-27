@@ -191,7 +191,6 @@ main h1 {
     width: 92%;
     display: block;
     margin-bottom: 0;
-    padding-bottom: -10%;
 }
 
 .fiveday {
@@ -238,7 +237,7 @@ footer p {
 }
 
 .author {
-    text-justify: left;
+    text-justify: inter-word;
     font-style: italic;
     margin: 0%;
     padding: 0.2rem;
@@ -324,11 +323,6 @@ footer p {
 
 .top {
     display: none;
-    margin: 0%;
-}
-
-.top-appear {
-    display: block;
     background-color: #C4F0FF;
     color: #D51920;
     text-align: center;
